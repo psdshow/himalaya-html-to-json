@@ -1,0 +1,33 @@
+{
+    "name": "psdshow/html2json",
+    "description": "html to json,and replace content simple ",
+    "keywords": [
+        "html2json",
+        "service"
+    ],
+    "homepage": "https://github.com/psdshow/himalaya-html-to-json",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liliquan",
+            "email": "liliquan@kuaizi.co"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.1"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "html2json\\service\\" : "src/service/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+}
