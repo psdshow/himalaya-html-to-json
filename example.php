@@ -7,6 +7,8 @@ $inner_html = '<p style="line-height: normal;"></p><div style="text-align: right
 
 $json = htmlToJson::parseInnerHtmlToJson($inner_html);
 
+print_r($json);
+
 $contents = ['aaa','bbb'];
 
 echo htmlToJson::replaceHtmlContent($json, $contents);
